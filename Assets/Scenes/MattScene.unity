@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 592645893}
   - component: {fileID: 592645892}
   - component: {fileID: 592645891}
+  - component: {fileID: 592645895}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -227,6 +228,137 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592645895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592645890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1230ee4ea5de09046a2fb2f54137beb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m1SpatialAudioMixerGroup: {fileID: -417872759960558034, guid: ed8127f2cffc649458c169797336166d, type: 2}
+  isFromAssets: 1
+  audioClipMain:
+  - {fileID: 8300000, guid: 419ec647aba784a719bebb6852147cc6, type: 3}
+  - {fileID: 8300000, guid: 8e44d2ed8c91443078668412b55447aa, type: 3}
+  - {fileID: 8300000, guid: 1a40919d68c3643138ad6caad6c06513, type: 3}
+  - {fileID: 8300000, guid: bfdf33e7e82894a02afbbfd87887a4b8, type: 3}
+  - {fileID: 8300000, guid: b4973b98502ba440fb9e501a3d4575ee, type: 3}
+  - {fileID: 8300000, guid: 888636bfdd1b542699fbb675f5e8a68e, type: 3}
+  - {fileID: 8300000, guid: f6aabaf2f6966438cb676e7012e70677, type: 3}
+  - {fileID: 8300000, guid: 6e9b3894770d545229d2a01e394f3dcd, type: 3}
+  externalAudioPath: file:///
+  externalAudioFilenameMain:
+  - 1.wav
+  - 2.wav
+  - 3.wav
+  - 4.wav
+  - 5.wav
+  - 6.wav
+  - 7.wav
+  - 8.wav
+  autoPlay: 1
+  isLoop: 0
+  loadAudioOnStart: 1
+  useAttenuation: 1
+  attenuationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.1
+      outSlope: -0.1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 5
+      value: 0.5
+      inSlope: -0.1
+      outSlope: -0.1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10
+      value: 0
+      inSlope: -0.1
+      outSlope: -0.1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  usePlaneCalculation: 0
+  muteWhenInsideObject: 0
+  muteWhenOutsideObject: 0
+  useYawForRotation: 1
+  usePitchForRotation: 1
+  useRollForRotation: 1
+  drawHelpers: 0
+  debug: 0
+  useBlendMode: 0
+  audioClipBlend:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  externalAudioFilenameBlend:
+  - 1.wav
+  - 2.wav
+  - 3.wav
+  - 4.wav
+  - 5.wav
+  - 6.wav
+  - 7.wav
+  - 8.wav
+  attenuationCurveBlendMode:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.5
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ignoreTopBottom: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
